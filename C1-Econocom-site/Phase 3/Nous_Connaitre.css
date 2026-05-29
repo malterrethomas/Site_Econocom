@@ -1,0 +1,86 @@
+:root {
+   --color-primary-500: #3e0d81;
+   --color-primary-600: #501397;
+   --color-secondary-400: #9f74d6;
+   --color-accent-300: #f9d957;
+   --color-accent-500: #573eef;
+   --color-error-400: #ff8679;
+   --font-size-base: 16px;
+   --font-size-XXL:80px;
+   --font-size-XL:40px;
+   --font-primary: 'Roboto', sans-serif;
+}
+
+main{
+    font-family: var(--font-primary);
+}
+
+.violet{
+    background-color: var(--color-secondary-400);
+}
+
+.orange{
+    background-color: var(--color-error-400);
+}
+
+section{
+    border-radius: 100px;
+    padding: 20px;
+    padding-left:25px;
+    padding-right: 25px;
+    margin: 10px;
+}
+
+section img{
+    width: 30%;
+    height: 30%;
+    
+}
+
+section:last-child img{
+    border-radius: 100px;
+    width: 20%;
+    height: 20%;
+}
+
+.mise{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.colonne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+main p{
+    width: 50%;
+    text-align: center;
+}
+
+main ul{
+    width: 50%;
+    text-align: center;
+    
+}
+
+.colonne p{
+    margin: 1%;
+}
+
+main li{
+    list-style-type: none;
+}
+
+.Text{
+    width: 60%;
+}

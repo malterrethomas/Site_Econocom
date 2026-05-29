@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Formulaire </title>
+        <link href="Formulaire.css" rel="stylesheet">
+        <link href="head_foot.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="conteneur header-flex">
+                <a href="Accueil.html" class="logo"><img src="logo.png" alt="logo_econocom"></a>
+                <nav>
+                    <ul>
+                        <li><a href="Accueil.html">Accueil</a></li>
+                        <li><a href="Nos_Engagements.html">Nos Engagements</a></li>
+                        <li><a href="Nous_Connaitre.html">Nous Connaître</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <h1>Formulaire pour postuler</h1>
+            <p>Bienvenue sur notre formulaire de candidature pour ton stage de
+                découverte professionnelle en classe de 3ème !</p>
+            <hr/>
+            <p>Pour nous aider à mieux te connaître merci de bien vouloir remplir les informations ci-dessous. 
+            Prends le temps de répondre avec soin, notamment pour ta lettre de motivation, qui nous 
+            permettra de comprendre tes motivations et ce que tu attends de cette expérience.
+            Nous avons hâte de découvrir ta candidature et peut-être de t'accueillir bientôt !</p>
+            <form>
+
+                <div>
+                    <label for="prenom">Prénom (*)</label>
+                    <input id="prenom" type="text" name="prenom" required>
+                </div>
+
+                <div>
+                    <label for="nomFamille">Nom de famille (*)</label>
+                    <input id="nomFamille" type="text" name="nomFamille" required>
+                </div>
+
+                <div>
+                    <label for="email">E-mail (*)</label>
+                    <input id="email" type="email" name="email" required>
+                </div>
+                
+                <div>
+                    <label for="telephone">Téléphone</label>
+                    <input id="telephone" type="tel" name="telephone">
+                </div>
+
+                <div>
+                    <label for="lettreMotiv">Lettre de motivation (*)</label>
+                    <textarea id="lettreMotiv" name="lettreMotiv" rows="10" cols="50" required></textarea>
+                </div>
+
+                
+                <button type="submit">Soumettre</button>
+                
+
+                <p>(*) Champ obligatoire</p>
+
+            </form>
+        </main>
+        <footer>
+            <div class="conteneur footer_flex">
+                <div class="footer_colonne">
+                    <h4>Notre histoire, nos chiffres</h4>
+                    <ul>
+                        <li><a href="https://www.econocom.com/fr#">Econocom | ESN, SSI</a></li>
+                        <li><a href="https://www.econocom.com/fr/investisseurs/chiffres-cles">Chiffres clés | Econocom</a></li>
+                        <li><a href="https://www.econocom.com/fr/impact/frise-chronologique">Frise chronologique | Econocom</a></li>
+                    </ul>
+                </div>
+            <div class="footer_colonne">
+                <h4>Nos Réseaux</h4>
+                <ul>
+                    <li><a href="https://fr-fr.facebook.com/econocomFR/#">Facebook</a></li>
+                    <li><a href="https://x.com/Econocom_fr">Twitter | X</a></li>
+                    <li><a href="https://www.instagram.com/econocom_fr/">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer_colonne">
+                <h4>Antenne de Grenoble</h4>
+                <p>456 Chemin de l'étang</p>
+                <p>La Presqu'île</p>
+                <p>38950 Saint-Martin le Vinoux</p>
+                <p>France</p>
+                <p>+33 4 76 04 30 23</p>
+            </div>
+        </div>
+    </footer>
+    </body>
+</html>    
